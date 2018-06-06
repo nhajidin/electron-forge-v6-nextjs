@@ -3,7 +3,7 @@
   "productName": "electron-forge-v6-nextjs",
   "version": "1.0.0",
   "description": "My Electron application description",
-  "main": "src/index.js",
+  "main": "src/main.js",
   "scripts": {
     "start": "electron-forge start",
     "package": "electron-forge package",
@@ -42,6 +42,10 @@
     }
   },
   "dependencies": {
+    "@zeit/next-typescript": "^1.0.1",
+    "app-root-path": "^2.0.1",
+    "electron-is-dev": "^0.3.0",
+    "electron-next": "^3.1.4",
     "electron-squirrel-startup": "^1.0.0"
   },
   "devDependencies": {
@@ -50,6 +54,17 @@
     "@electron-forge/maker-rpm": "^6.0.0-beta.1",
     "@electron-forge/maker-squirrel": "^6.0.0-beta.1",
     "@electron-forge/maker-zip": "^6.0.0-beta.1",
-    "electron": "2.0.2"
+    "@types/app-root-path": "^1.2.4",
+    "@types/electron-is-dev": "^0.3.0",
+    "@types/next": "^2.4.11",
+    "@types/react": "^16.3.16",
+    "electron": "2.0.2",
+    "next": "^6.0.3",
+    "react": "^16.4.0",
+    "react-dom": "^16.4.0",
+    "tslint": "^5.10.0",
+    "tslint-config-prettier": "^1.13.0",
+    "tslint-react": "^3.6.0",
+    "typescript": "^2.9.1"
   }
 }
